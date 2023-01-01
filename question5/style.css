@@ -1,0 +1,16 @@
+
+#logfrm{
+    width: 30%;
+    text-align: center;
+    background-color:darkorange;
+    margin-left: 33%;
+    margin-top: 25%;
+}
+
+#logfrm>form{
+    text-align: center;
+}
+
+html{
+    font-family: monospace;
+}
