@@ -2,20 +2,41 @@
 <html>
     <head>
         <title>
-            Login portal
+            UNSC Data Vault
         </title>
-        <link href="./style.css" rel="stylesheet"/>
+        <link href="./style.css" rel="stylesheet" />
     </head>
     <body>
-        <div id="logfrm">
-        <h1>Login</h1>
-            <form>
-                <label>Username</label>
+        <div class="page">
+            <br><br>
+            <h1>United Nations Space Command Data Vault</h1><br><br><br><br><br>
+            <div class="form">
+                <h3>Please enter identification</h3><br><br>
+                <form>
+                <label>Username</label><br><br>
                 <input type="text" id="un" placeholder="Enter your username"><br><br>
-                <label>Password</label>
+                <label>Password</label><br><br>
                 <input type="text" id="pw" placeholder="Enter your password"><br><br>
-            </form>
+                <button style="background-color:darkslategray;color:aliceblue; width: 100px;"  type="submit" onclick="verify()">Enter</button>
+                </form>
+
+            </div>
+
         </div>
-        <script src="./script.js"></script>
+        <script src="./script.js" ></script>
+
     </body>
+
+            <!--
+
+            import hashlib
+
+            def hash_pw(pw_str):                         
+                pw_bytes = bytearray()
+                pw_bytes.extend(pw_str.encode())
+                m = hashlib.md5()
+                m.update(pw_bytes)
+                return m.digest()
+
+            -->
 </html>

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /records.html
+Disallow: /3outof3.html
