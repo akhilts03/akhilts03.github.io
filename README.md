@@ -1,6 +1,6 @@
 # akhilts03.github.io
 
-This is where I host the questions for the web ctf for cepheus '23
+This is where I'm hosting the questions for the web ctf for cepheus '23.
 
 [question1](https://akhilts03.github.io/question1/)
 
