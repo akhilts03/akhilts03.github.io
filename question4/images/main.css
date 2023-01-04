@@ -8,8 +8,9 @@
 	grid-gap: 50px;
 	align-items: stretch;
 	justify-items: center;
+	object-fit:contain;
 	}
-  .grid img {
+.grid img {
 	border: 1px solid #ccc;
 	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 	max-width: 100%;
@@ -18,9 +19,12 @@
 
 html{
 	font-family: monospace;
+	color: antiquewhite;
+	background-color:black
 }
 
 .maintext{
 	text-align: left;
 	width: 70%;
 }
+
